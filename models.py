@@ -12,4 +12,4 @@ class User(Model):
 
 
 class Business(Model):
-    
+    id = fields.IntField(pk= True, index= True)
